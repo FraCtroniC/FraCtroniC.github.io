@@ -1,0 +1,23 @@
+<section class="catalogo-wrap" aria-labelledby="catalogo-title">
+  <div class="catalogo-heading">
+    <p class="kicker">Colección destacada</p>
+    <h2 id="catalogo-title">Catálogo de productos</h2>
+    <p>Encuentra dispositivos y herramientas para tus montajes de electrónica y laboratorio digital.</p>
+  </div>
+
+  <div class="catalogo-controls" role="search">
+    <label class="control-field" for="search-producto">
+      Buscar
+      <input id="search-producto" type="search" placeholder="Ej: sensor, multímetro, placa..." autocomplete="off">
+    </label>
+
+    <label class="control-field" for="filter-categoria">
+      Categoría
+      <select id="filter-categoria">
+        <option value="all">Todas</option>
+      </select>
+    </label>
+  </div>
+
+  <div id="catalogo-grid" class="catalogo-grid" aria-live="polite"></div>
+</section>
