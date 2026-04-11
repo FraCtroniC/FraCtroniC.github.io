@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "nombre": "Kit IoT Inicial",
+    "categoria": "Kits",
+    "precio": 49.9,
+    "rating": 4.8,
+    "descripcion": "Incluye microcontrolador, sensores base y guia rapida para tus primeras automatizaciones.",
+    "imagen": "https://images.pexels.com/photos/2582937/pexels-photo-2582937.jpeg?auto=compress&cs=tinysrgb&w=900",
+    "alt": "Placa electronica y componentes para prototipado IoT sobre una mesa",
+    "stock": true,
+    "oferta": true
+  },
+  {
+    "id": 2,
+    "nombre": "Multimetro Pro X200",
+    "categoria": "Instrumentacion",
+    "precio": 35.5,
+    "rating": 4.6,
+    "descripcion": "Mediciones estables para voltaje, continuidad y resistencia con pantalla de alto contraste.",
+    "imagen": "https://images.pexels.com/photos/6755091/pexels-photo-6755091.jpeg?auto=compress&cs=tinysrgb&w=900",
+    "alt": "Multimetro digital sobre banco de trabajo de electronica",
+    "stock": true,
+    "oferta": false
+  },
+  {
+    "id": 3,
+    "nombre": "Sensor Ambiental SHT31",
+    "categoria": "Sensores",
+    "precio": 12.75,
+    "rating": 4.7,
+    "descripcion": "Control preciso de temperatura y humedad para proyectos domoticos y monitoreo remoto.",
+    "imagen": "https://images.pexels.com/photos/4219654/pexels-photo-4219654.jpeg?auto=compress&cs=tinysrgb&w=900",
+    "alt": "Sensor electronico montado en una placa de desarrollo",
+    "stock": true,
+    "oferta": false
+  },
+  {
+    "id": 4,
+    "nombre": "Fuente Regulable MiniLab",
+    "categoria": "Instrumentacion",
+    "precio": 67,
+    "rating": 4.9,
+    "descripcion": "Salida ajustable y proteccion de sobrecorriente, ideal para banco de pruebas compacto.",
+    "imagen": "https://images.pexels.com/photos/4100848/pexels-photo-4100848.jpeg?auto=compress&cs=tinysrgb&w=900",
+    "alt": "Fuente de alimentacion de laboratorio en un entorno tecnico",
+    "stock": false,
+    "oferta": true
+  },
+  {
+    "id": 5,
+    "nombre": "Pack Cables Dupont",
+    "categoria": "Accesorios",
+    "precio": 8.9,
+    "rating": 4.5,
+    "descripcion": "Juego surtido macho-hembra para conexiones rapidas en protoboards y placas de desarrollo.",
+    "imagen": "https://images.pexels.com/photos/163100/laptop-computer-repair-electronics-163100.jpeg?auto=compress&cs=tinysrgb&w=900",
+    "alt": "Cables y componentes electronicos de conexion rapida",
+    "stock": true,
+    "oferta": false
+  },
+  {
+    "id": 6,
+    "nombre": "Placa ESP32 Dev",
+    "categoria": "Kits",
+    "precio": 14.2,
+    "rating": 4.8,
+    "descripcion": "WiFi y Bluetooth integrados para aplicaciones de control, telemetria y prototipado agil.",
+    "imagen": "https://images.pexels.com/photos/270404/pexels-photo-270404.jpeg?auto=compress&cs=tinysrgb&w=900",
+    "alt": "Microcontrolador y chips sobre una placa electronica",
+    "stock": true,
+    "oferta": true
+  }
+]
