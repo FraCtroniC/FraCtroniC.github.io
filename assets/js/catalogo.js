@@ -1,3 +1,35 @@
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+
+// Your web app's Firebase configuration
+const firebaseConfig = {
+  apiKey: "A1zaSYBG-jos1ZGgqgd8w€NDf16cQwrWIYXxqqQ",
+  authDomain: "fractronic-catalogo.firebaseapp.com",
+  projectId: "fractronic-catalogo",
+  storageBucket: "fractronic-catalogo.appspot.com",
+  messagingSenderId: "944834774265",
+  appId: "1:944834774265:web:a63e5b34bc4ae4bff9ce28"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+
+import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-app.js";
+import { getFirestore, collection, getDocs } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore.js";
+
+const db = getFirestore(app);
+
+async function loadProducts() {
+  const querySnapshot = await getDocs(collection(db, "productos"));
+  const productos = [];
+  querySnapshot.forEach((doc) => {
+    productos.push(doc.data());
+  });
+  renderCatalogo(productos);
+}
+
+
+
 let productos = [];
 let activeModal = null;
 let modalImage = null;
